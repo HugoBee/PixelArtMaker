@@ -1,0 +1,65 @@
+<html>
+
+<head>
+  <title>Pixel Art Maker!</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>Mega Pixel Art Maker</h1>
+  <aside>
+  <div class="infocontainer">
+    <h2>Choose Your Canvas Size!</h2>
+    <h3>Pick a number to make your grid (MAX 50)</h3>
+      <form id="sizePicker">
+      <div>  Grid Height:
+        <input type="number" id="heightinput" name="height" min="1" max="50" value="25">
+      </div>
+      <div> Grid Width:
+        <input type="number" id="widthinput" name="width" min="1" max="50" value="25">
+      </div>
+        <input type="submit">
+        <input type="submit" id="clear" value="Clear the Grid">
+      </form>
+
+    <h2>Pick A Color</h2>
+    <input type="color" id="colorPicker">
+  </div>
+  </aside>
+  <div class="tablecentered">
+    <h2>Design Canvas</h2>
+    <table id="pixelCanvas">
+      <tr><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td></tr>
+      <tr><td><td><td><td><td><td><td><td><td><td><td><td><td><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td><td><td><td><td><td><td><td><td><td><td><td><td><td></tr>
+      <tr><td><td><td><td><td><td><td><td><td><td><td><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td = bgcolor = #08ECCD><td bgcolor = #08ECCD><td = bgcolor = #000000><td><td><td><td><td><td><td><td><td><td><td><td><td></tr>
+      <tr><td><td><td><td><td><td><td><td><td><td><td bgcolor = #000000><td bgcolor = #0078f8 ><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #000000><td bgcolor = #0808ECCD><td bgcolor = #08eccd><td bgcolor = #000000><td><td><td><td><td><td><td><td><td><td><td><td></tr>
+      <tr><td><td><td><td><td><td><td><td><td><td bgcolor = #000000><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td><td><td><td><td><td><td><td><td><td><td></tr>
+      <tr><td><td><td><td><td><td><td><td><td><td bgcolor = #000000><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #000000><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #0078f8><td  bgcolor = #000000><td><td><td><td><td><td><td><td><td><td></tr>
+      <tr><td><td><td><td><td><td><td><td><td bgcolor = #000000><td bgcolor = #08ECCD><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #0078f8><td bgcolor = #000000><td><td><td><td><td><td><td><td><td><td></tr>
+      <tr><td><td><td><td><td><td><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #08ECCD><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #F8D878><td bgcolor = #FFFFFF><td bgcolor = #FFFFFF><td bgcolor = #FFFFFF><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #FFFFFF><td bgcolor = #000000><td><td><td><td><td><td><td><td><td><td></tr>
+      <tr><td><td><td><td><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #000000><td bgcolor = #08ECCD><td bgcolor = #0078f8><td bgcolor = #F8D878><td bgcolor = #FFFFFF><td bgcolor = #FFFFFF><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #F8D878><td bgcolor = #000000><td bgcolor = #FFFFFF><td bgcolor = #000000><td><td><td><td><td><td><td><td><td><td></tr>
+      <tr><td><td><td><td bgcolor = #000000><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #000000><td bgcolor = #0078f8><td bgcolor = #F8D878><td bgcolor = #FFFFFF><td bgcolor = #FFFFFF><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #F8D878><td bgcolor = #000000><td td bgcolor = #FFFFFF><td bgcolor = #000000><td><td><td><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td><td><td></tr>
+      <tr><td><td><td bgcolor = #000000><td bgcolor = #0078f8><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #000000><td bgcolor = #0078f8><td bgcolor = #F8D878><td bgcolor = #F8D878><td bgcolor = #FFFFFF><td bgcolor = #FFFFFF><td bgcolor = #FFFFFF><td bgcolor = #F8D878><td bgcolor = #FFFFFF><td bgcolor = #F8D878><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td></tr>
+      <tr><td><td><td bgcolor = #000000><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #08ECCD><td bgcolor = #000000><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #000000><td bgcolor = #0078f8><td bgcolor = #F8D878><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #F8D878><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #000000><td bgcolor = #0078f8><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #000000><td bgcolor = #08ECCD><td bgcolor = #000000></tr>
+      <tr><td><td><td bgcolor = #000000><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #000000><td bgcolor = #0078f8><td bgcolor = #000000><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #000000><td bgcolor = #F8D878><td bgcolor = #F8D878><td bgcolor = #F8D878><td bgcolor = #F8D878><td bgcolor = #F8D878><td bgcolor = #000000><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #000000><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #000000><td bgcolor = #0078f8><td bgcolor = #000000></tr>
+      <tr><td><td><td><td bgcolor = #000000><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #000000><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #000000><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #000000><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td></tr>
+      <tr><td><td><td><td><td bgcolor = #000000><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #000000><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td><td><td></tr>
+      <tr><td><td><td><td><td><td bgcolor = #000000><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #000000><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #000000><td><td><td><td><td><td><td><td><td><td><td><td><td></tr>
+      <tr><td><td><td><td><td><td><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #000000><td><td><td><td><td><td><td><td><td><td><td><td><td><td></tr>
+      <tr><td><td><td><td><td><td><td><td bgcolor = #000000><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #000000><td><td><td><td><td><td><td><td><td><td><td><td><td><td></tr>
+      <tr><td><td><td><td><td><td><td bgcolor = #000000><td bgcolor = #08ECCD><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #08ECCD><td bgcolor = #000000><td><td><td><td><td><td><td><td><td><td><td><td><td><td></tr>
+      <tr><td><td><td><td><td><td bgcolor = #000000><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #08ECCD><td bgcolor = #08ECCD><tdbgcolor = #08ECCD><td bgcolor = #000000><td><td><td><td><td><td><td><td><td><td><td><td><td><td></tr>
+      <tr><td><td><td><td><td bgcolor = #000000><td bgcolor = #0078f8><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #000000><td><td><td><td><td><td><td><td><td><td><td><td></tr>
+      <tr><td><td><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #08ECCD><td bgcolor = #08ECCD><td bgcolor = #000000><td><td><td bgcolor = #000000><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #000000><td><td><td><td><td><td><td><td><td><td><td><td></tr>
+      <tr><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #000000><td><td><td><td bgcolor = #000000><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td><td><td><td><td><td><td><td><td><td></tr>
+      <tr><td bgcolor = #000000><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #000000><td><td><td><td bgcolor = #000000><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #0078f8><td bgcolor = #000000><td><td><td><td><td><td><td><td><td></tr>
+      <tr><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td><td><td><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td bgcolor = #000000><td><td><td><td><td><td><td><td><td></tr>
+      <tr><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td></tr>
+    </table>
+  </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="designs.js"></script>
+</body>
+
+</html>

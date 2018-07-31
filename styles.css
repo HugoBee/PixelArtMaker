@@ -1,0 +1,78 @@
+body {
+  text-align: center;
+  background-image: url(https://i.imgur.com/Z3ldLGv.jpg);
+  font-family: "Orbitron";
+}
+
+h1 {
+  font-family: "Orbitron";
+  font-size: 70px;
+  color: #08ECCD;
+  margin: 0.2em;
+  padding-bottom: 10px;
+
+}
+aside {
+    float: left;
+    margin: 0 0% 0 0%;
+}
+h2 {
+  margin: 1em 0 0.25em;
+  color: yellow;
+}
+
+h2:first-of-type {
+  margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+tr {
+  height: 20px;
+}
+
+td {
+  width: 20px;
+}
+
+input[type="number"] {
+  width: 6em;
+  border: 2px, solid, white;
+  border-radius: 6px;
+}
+input[type="submit"] {
+  color: #1F3A93;
+  background-color: white;
+  boder: 2px, solid, white;
+  border-radius: 6px;
+}
+input[type="color"] {
+  border-radius: 6px;
+}
+.infocontainer {
+  background: #ffffffa1;
+  align: left;
+  margin: auto;
+  width: 55%;
+  border-radius: 5px;
+  border-style: dotted;
+  border-color: #6cd7f6;
+  padding-bottom: 10px;
+}
+.canvas {
+  clear: both;
+}
+.tablecentered {
+    margin: 0% 5% 0% 0;
+    vertical-align: left;
+    text-align: center;
+}
